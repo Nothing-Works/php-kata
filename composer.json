@@ -6,7 +6,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Kata\\": "src/"
+      "App\\": "src/"
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Tests\\": "tests/"
+      }
     }
   }
 }
