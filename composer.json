@@ -1,0 +1,12 @@
+{
+  "name": "php/kata",
+  "description": "A place for php katas",
+  "require": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kata\\": "src/"
+    }
+  }
+}
